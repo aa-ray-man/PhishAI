@@ -1,0 +1,107 @@
+{
+  "email_model": {
+    "dataset_size": 10000,
+    "train_samples": 8000,
+    "val_samples": 2000,
+    "metrics": {
+      "accuracy": 0.971,
+      "precision": 0.9747983870967742,
+      "recall": 0.967,
+      "f1_score": 0.9708835341365462,
+      "roc_auc": 0.9953285000000001,
+      "tpr@0.01%_fpr": 0.251,
+      "tpr@0.1%_fpr": 0.632,
+      "tpr@1%_fpr": 0.904,
+      "confusion_matrix": {
+        "true_negative": 975,
+        "false_positive": 25,
+        "false_negative": 33,
+        "true_positive": 967
+      },
+      "per_class_metrics": {
+        "legitimate": {
+          "precision": 0.9672619047619048,
+          "recall": 0.975,
+          "f1_score": 0.9711155378486056,
+          "support": 1000
+        },
+        "phishing": {
+          "precision": 0.9747983870967742,
+          "recall": 0.967,
+          "f1_score": 0.9708835341365462,
+          "support": 1000
+        }
+      }
+    }
+  },
+  "url_model": {
+    "dataset_size": 10000,
+    "train_samples": 8000,
+    "val_samples": 2000,
+    "metrics": {
+      "accuracy": 0.931,
+      "precision": 0.9536842105263158,
+      "recall": 0.906,
+      "f1_score": 0.9292307692307692,
+      "roc_auc": 0.9835424999999999,
+      "tpr@0.01%_fpr": 0.285,
+      "tpr@0.1%_fpr": 0.59,
+      "tpr@1%_fpr": 0.826,
+      "confusion_matrix": {
+        "true_negative": 956,
+        "false_positive": 44,
+        "false_negative": 94,
+        "true_positive": 906
+      },
+      "per_class_metrics": {
+        "legitimate": {
+          "precision": 0.9104761904761904,
+          "recall": 0.956,
+          "f1_score": 0.9326829268292683,
+          "support": 1000
+        },
+        "phishing": {
+          "precision": 0.9536842105263158,
+          "recall": 0.906,
+          "f1_score": 0.9292307692307692,
+          "support": 1000
+        }
+      }
+    }
+  },
+  "umpire_model": {
+    "dataset_size": 20000,
+    "train_samples": 16000,
+    "val_samples": 4000,
+    "metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "tpr@0.01%_fpr": 1.0,
+      "tpr@0.1%_fpr": 1.0,
+      "tpr@1%_fpr": 1.0,
+      "confusion_matrix": {
+        "true_negative": 2000,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 2000
+      },
+      "per_class_metrics": {
+        "legitimate": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 2000
+        },
+        "phishing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 2000
+        }
+      }
+    }
+  }
+}

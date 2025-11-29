@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Large model folders
+email_phishing_model/
+url_phishing_model/
+umpire_model/
+results_Email_Phishing_Model/
+results_URL_Phishing_Model/
+results_Umpire_Model/
+
+# Local configs
+.config/
+.DS_Store
+*.log
+*.tmp
+
+# Node/Frontend stuff
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+
+# OS files
+Thumbs.db
