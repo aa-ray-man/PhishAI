@@ -1,7 +1,7 @@
 ---
 
 # 🛡️ Phish AI — Agentic Phishing Detection System
-![WhatsApp Image 2025-11-07 at 12 50 53_18e8ed86](https://github.com/user-attachments/assets/993cee96-eda4-4fb9-a69e-d0aa0efc4384)
+<img width="1239" height="684" alt="image" src="https://github.com/user-attachments/assets/d8d8d8c8-448b-480f-9754-7ad3ac85bcd9" />
 
 
 ### “An AI-driven Chrome Extension that behaves like an antivirus for phishing emails and URLs.”
