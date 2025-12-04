@@ -4,7 +4,7 @@
 <img width="1239" height="684" alt="image" src="https://github.com/user-attachments/assets/d8d8d8c8-448b-480f-9754-7ad3ac85bcd9" />
 
 
-### “An AI-driven Chrome Extension that behaves like an antivirus for phishing emails and URLs.”
+### “An AI-driven project that behaves like an antivirus for phishing emails and URLs.”
 
 ---
 
